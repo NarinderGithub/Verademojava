@@ -2,8 +2,8 @@
 name: Feature_Branch
 
 on:
-  push:
-    branches: [Feature1]
+  schedule:
+    - cron:  '0 0 * * *'
 
 
 
