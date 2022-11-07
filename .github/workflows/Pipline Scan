@@ -47,3 +47,4 @@ jobs:
             file: "verademo.war" 
             request_policy: "VeraDemo Policy"
             fail_build: true        
+            
