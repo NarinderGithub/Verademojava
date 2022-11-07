@@ -46,7 +46,7 @@ jobs:
             vkey: '${{ secrets.VERACODE_API_KEY }}'
             file: "verademo.war" 
             request_policy: "Verademo"
-            fail_build: true 
+            fail_build: false 
 
   veracode-sca-task:
     runs-on: ubuntu-latest
